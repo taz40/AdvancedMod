@@ -1,0 +1,6 @@
+#   Blocks
+tile.advancedmod:smileface.name=Smiley Face
+tile.advancedmod:blockyellow.name=Yellow Block
+
+#   Creative Tabs
+itemGroup.advancedmod=Advanced Mod

@@ -1,5 +1,6 @@
 package com.piwalker.advancedmod;
 
+import com.piwalker.advancedmod.init.ModBlocks;
 import com.piwalker.advancedmod.proxy.IProxy;
 import com.piwalker.advancedmod.reference.Reference;
 import com.piwalker.advancedmod.utility.LogHelper;
@@ -24,6 +25,7 @@ public class AdvancedMod {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         proxy.preInit();
+        ModBlocks.init();
         LogHelper.info("Pre Initialization Complete.");
     }
 
