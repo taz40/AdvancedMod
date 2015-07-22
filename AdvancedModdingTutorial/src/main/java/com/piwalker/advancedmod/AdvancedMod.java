@@ -1,5 +1,6 @@
 package com.piwalker.advancedmod;
 
+import com.piwalker.advancedmod.world.gen.WorldGeneratorFlag;
 import com.piwalker.advancedmod.init.ModBlocks;
 import com.piwalker.advancedmod.proxy.IProxy;
 import com.piwalker.advancedmod.reference.Reference;
@@ -9,6 +10,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * Created by SamuelPiWalker on 7/21/2015.
@@ -25,6 +27,7 @@ public class AdvancedMod {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         proxy.preInit();
+        GameRegistry.registerWorldGenerator(new WorldGeneratorFlag(), 0);
         ModBlocks.init();
         LogHelper.info("Pre Initialization Complete.");
     }

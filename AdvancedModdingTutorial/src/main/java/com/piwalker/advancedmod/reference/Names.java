@@ -8,4 +8,9 @@ public class Names {
         public static String SMILEY = "smileface";
         public static String YELLOW = "blockyellow";
     }
+
+    public static class Keys{
+        public static String net = "keys.advancedmod.net";
+        public static String category = "keys.advancedmod.category";
+    }
 }

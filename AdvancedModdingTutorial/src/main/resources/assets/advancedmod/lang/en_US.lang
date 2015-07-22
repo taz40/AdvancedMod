@@ -1,3 +1,7 @@
+#   Keys
+keys.advancedmod.net=Network Comunications Test
+keys.advancedmod.category=Advanced Mod
+
 #   Blocks
 tile.advancedmod:smileface.name=Smiley Face
 tile.advancedmod:blockyellow.name=Yellow Block
