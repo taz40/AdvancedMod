@@ -1,10 +1,12 @@
 package com.piwalker.advancedmod;
 
+import com.piwalker.advancedmod.handler.keyHandler;
 import com.piwalker.advancedmod.world.gen.WorldGeneratorFlag;
 import com.piwalker.advancedmod.init.ModBlocks;
 import com.piwalker.advancedmod.proxy.IProxy;
 import com.piwalker.advancedmod.reference.Reference;
 import com.piwalker.advancedmod.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
