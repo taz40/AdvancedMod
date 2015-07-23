@@ -1,66 +1,32 @@
-[15:51:06] [main/INFO]: Setting user: Player701
-[15:51:09] [Client thread/INFO]: LWJGL Version: 2.9.1
-[15:51:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
-[15:51:26] [Sound Library Loader/INFO]: Sound engine started
-[15:51:30] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:51:30] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:51:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
-[15:51:31] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:51:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:51:33] [Sound Library Loader/INFO]: Sound engine started
-[15:51:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[15:51:42] [Server thread/INFO]: Generating keypair
-[15:51:43] [Server thread/INFO]: Preparing start region for level 0
-[15:51:44] [Server thread/INFO]: Preparing spawn area: 21%
-[15:51:45] [Server thread/INFO]: Preparing spawn area: 59%
-[15:51:46] [Server thread/INFO]: Preparing spawn area: 85%
-[15:51:47] [Server thread/INFO]: Changing view distance to 12, from 10
-[15:51:48] [Server thread/INFO]: Player701[local:E:dca9f2e7] logged in with entity id 101 at (8.741065305041175, 237.0, 26.54597871816411)
-[15:51:48] [Server thread/INFO]: Player701 joined the game
-[15:52:50] [Server thread/INFO]: Saving and pausing game...
-[15:52:50] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[15:52:50] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[15:52:50] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[16:29:40] [Server thread/INFO]: Stopping server
-[16:29:40] [Server thread/INFO]: Saving players
-[16:29:40] [Server thread/INFO]: Saving worlds
-[16:29:40] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[16:29:40] [Server thread/WARN]: The save is being accessed from another location, aborting
-[16:29:40] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[16:29:40] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[16:29:42] [Client thread/INFO]: Stopping!
-las
-[15:54:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:54:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
-[15:54:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:54:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:54:58] [Sound Library Loader/INFO]: Sound engine started
-[15:55:05] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[15:55:05] [Server thread/INFO]: Generating keypair
-[15:55:07] [Server thread/INFO]: Preparing start region for level 0
-[15:55:08] [Server thread/INFO]: Preparing spawn area: 13%
-[15:55:09] [Server thread/INFO]: Preparing spawn area: 40%
-[15:55:10] [Server thread/INFO]: Preparing spawn area: 62%
-[15:55:11] [Server thread/INFO]: Preparing spawn area: 84%
-[15:55:12] [Server thread/INFO]: Changing view distance to 12, from 10
-[15:55:13] [Server thread/INFO]: Player860[local:E:671af77f] logged in with entity id 183 at (17.201425019735932, 245.8643559770862, 6.003510131294182)
-[15:55:13] [Server thread/INFO]: Player860 joined the game
-[15:55:30] [Server thread/INFO]: Player860 has just earned the achievement [Taking Inventory]
-[15:55:30] [Client thread/INFO]: [CHAT] Player860 has just earned the achievement [Taking Inventory]
-[15:56:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 129 ms
-[15:56:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 132 ms
-[15:56:45] [Server thread/INFO]: Saving and pausing game...
-[15:56:45] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[15:56:45] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[15:56:45] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[15:57:29] [Server thread/INFO]: Saving and pausing game...
-[15:57:29] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[15:57:29] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[15:57:29] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[15:57:30] [Server thread/INFO]: Stopping server
-[15:57:30] [Server thread/INFO]: Saving players
-[15:57:30] [Server thread/INFO]: Saving worlds
-[15:57:30] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[15:57:30] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[15:57:30] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[15:57:33] [Client thread/INFO]: Stopping!
+[10:32:46] [main/INFO]: Logging in with username & password
+[10:32:56] [main/INFO]: Setting user: PiWalker
+[10:32:59] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:33:01] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[10:33:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
+[10:33:17] [Sound Library Loader/INFO]: Sound engine started
+[10:33:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:33:23] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:33:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
+[10:33:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:33:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:33:25] [Sound Library Loader/INFO]: Sound engine started
+[10:33:34] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:33:34] [Server thread/INFO]: Generating keypair
+[10:33:34] [Server thread/INFO]: Preparing start region for level 0
+[10:33:35] [Server thread/INFO]: Preparing spawn area: 24%
+[10:33:36] [Server thread/INFO]: Preparing spawn area: 59%
+[10:33:37] [Server thread/INFO]: Preparing spawn area: 89%
+[10:33:38] [Server thread/INFO]: Changing view distance to 12, from 10
+[10:33:39] [Server thread/INFO]: PiWalker[local:E:77b8d27b] logged in with entity id 635 at (29.09522020149405, 244.18629553274374, 110.46166223775523)
+[10:33:39] [Server thread/INFO]: PiWalker joined the game
+[10:35:02] [Server thread/INFO]: Saving and pausing game...
+[10:35:02] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
+[10:35:02] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
+[10:35:02] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
+[10:35:03] [Server thread/INFO]: Stopping server
+[10:35:03] [Server thread/INFO]: Saving players
+[10:35:03] [Server thread/INFO]: Saving worlds
+[10:35:03] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
+[10:35:03] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
+[10:35:03] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
+[10:35:05] [Client thread/INFO]: Stopping!
