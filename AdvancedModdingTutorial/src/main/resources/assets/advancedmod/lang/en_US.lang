@@ -1,10 +1,12 @@
 #   Keys
 keys.advancedmod.net=Explode
 keys.advancedmod.category=Advanced Mod
+keys.advancedmod.explodeBig=Big Explode
 
 #   Blocks
 tile.advancedmod:smileface.name=Smiley Face
 tile.advancedmod:blockyellow.name=Yellow Block
+tile.advancedmod:camoMine.name=Camo Mine
 
 #   Creative Tabs
 itemGroup.advancedmod=Advanced Mod

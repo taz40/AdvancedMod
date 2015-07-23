@@ -1,0 +1,28 @@
+package com.piwalker.advancedmod.handler.network;
+
+import com.piwalker.advancedmod.AdvancedMod;
+import cpw.mods.fml.common.network.simpleimpl.IMessage;
+import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;
+import cpw.mods.fml.common.network.simpleimpl.MessageContext;
+import cpw.mods.fml.relauncher.Side;
+import io.netty.buffer.ByteBuf;
+import net.minecraft.entity.player.EntityPlayer;
+
+/**
+ * Created by SamuelPiWalker on 7/22/2015.
+ */
+public abstract class MessageBase<REQ extends IMessage> implements IMessage, IMessageHandler<REQ, REQ> {
+
+    @Override
+    public REQ onMessage(REQ message, MessageContext ctx) {
+        if(ctx.side == Side.SERVER)
+            handleServerSide(message, ctx.getServerHandler().playerEntity);
+        else
+            handleClientSide(message, null);
+        return null;
+    }
+
+    public abstract void handleClientSide(REQ message, EntityPlayer player);
+
+    public abstract void handleServerSide(REQ message, EntityPlayer player);
+}

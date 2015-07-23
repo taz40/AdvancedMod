@@ -8,4 +8,5 @@ import org.lwjgl.input.Keyboard;
  */
 public class Key {
     public static KeyBinding net = new KeyBinding(Names.Keys.net, Keyboard.KEY_N, Names.Keys.category);
+    public static KeyBinding bigExplode = new KeyBinding(Names.Keys.bigExplode, Keyboard.KEY_V, Names.Keys.category);
 }

@@ -1,6 +1,7 @@
 package com.piwalker.advancedmod;
 
 import com.piwalker.advancedmod.handler.keyHandler;
+import com.piwalker.advancedmod.handler.network.NetworkHandler;
 import com.piwalker.advancedmod.world.gen.WorldGeneratorFlag;
 import com.piwalker.advancedmod.init.ModBlocks;
 import com.piwalker.advancedmod.proxy.IProxy;
@@ -31,6 +32,7 @@ public class AdvancedMod {
         proxy.preInit();
         GameRegistry.registerWorldGenerator(new WorldGeneratorFlag(), 0);
         ModBlocks.init();
+        NetworkHandler.init();
         LogHelper.info("Pre Initialization Complete.");
     }
 

@@ -4,20 +4,22 @@ import com.piwalker.advancedmod.creativetabs.CreativeTab;
 import com.piwalker.advancedmod.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.block.Block;
+import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
 
 /**
- * Created by SamuelPiWalker on 7/21/2015.
+ * Created by SamuelPiWalker on 7/22/2015.
  */
-public class BlockAdvancedMod extends Block{
-    public BlockAdvancedMod(Material m){
+public abstract class BlockAdvancedModTileEntity extends BlockContainer {
+    public BlockAdvancedModTileEntity(Material m){
         super(m);
         this.setCreativeTab(CreativeTab.ADVANCED_MOD_TAB);
     }
 
-    public BlockAdvancedMod(){
+    public BlockAdvancedModTileEntity(){
         this(Material.rock);
     }
 
