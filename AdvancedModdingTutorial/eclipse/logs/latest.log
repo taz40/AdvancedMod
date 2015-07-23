@@ -1,48 +1,36 @@
-[11:46:37] [main/INFO]: Logging in with username & password
-[11:46:47] [main/INFO]: Setting user: PiWalker
-[11:46:51] [Client thread/INFO]: LWJGL Version: 2.9.1
-[11:46:55] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[11:47:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
-[11:47:10] [Sound Library Loader/INFO]: Sound engine started
-[11:47:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[11:47:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[11:47:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
-[11:47:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[11:47:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[11:47:16] [Sound Library Loader/INFO]: Sound engine started
-[11:47:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[11:47:30] [Server thread/INFO]: Generating keypair
-[11:47:31] [Server thread/INFO]: Preparing start region for level 0
-[11:47:32] [Server thread/INFO]: Preparing spawn area: 17%
-[11:47:33] [Server thread/INFO]: Preparing spawn area: 57%
-[11:47:34] [Server thread/INFO]: Preparing spawn area: 90%
-[11:47:34] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:47:43] [Server thread/INFO]: Stopping server
-[11:47:43] [Server thread/INFO]: Saving players
-[11:47:43] [Server thread/INFO]: Saving worlds
-[11:47:43] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[11:47:43] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[11:47:43] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[11:47:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[11:47:44] [Server thread/INFO]: Generating keypair
-[11:47:45] [Server thread/INFO]: Preparing start region for level 0
-[11:47:46] [Server thread/INFO]: Preparing spawn area: 57%
-[11:47:47] [Server thread/INFO]: Preparing spawn area: 95%
-[11:47:47] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:47:47] [Server thread/INFO]: PiWalker[local:E:902e50e0] logged in with entity id 1332 at (-35.109034583310645, 247.39420240937463, 162.60092461353034)
-[11:47:47] [Server thread/INFO]: PiWalker joined the game
-[11:49:12] [Server thread/INFO]: Saving and pausing game...
-[11:49:12] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[11:49:12] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[11:49:12] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[11:49:41] [Server thread/INFO]: Saving and pausing game...
-[11:49:41] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[11:49:41] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[11:49:41] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[11:49:43] [Server thread/INFO]: Stopping server
-[11:49:43] [Server thread/INFO]: Saving players
-[11:49:43] [Server thread/INFO]: Saving worlds
-[11:49:43] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
-[11:49:43] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
-[11:49:43] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
-[11:49:44] [Client thread/INFO]: Stopping!
+[13:01:06] [main/INFO]: Logging in with username & password
+[13:01:16] [main/INFO]: Setting user: PiWalker
+[13:01:19] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:01:21] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[13:01:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
+[13:01:35] [Sound Library Loader/INFO]: Sound engine started
+[13:01:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:01:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:01:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Advanced Mod
+[13:01:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:01:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:01:43] [Sound Library Loader/INFO]: Sound engine started
+[13:01:51] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:01:51] [Server thread/INFO]: Generating keypair
+[13:01:52] [Server thread/INFO]: Preparing start region for level 0
+[13:01:53] [Server thread/INFO]: Preparing spawn area: 15%
+[13:01:54] [Server thread/INFO]: Preparing spawn area: 49%
+[13:01:55] [Server thread/INFO]: Preparing spawn area: 88%
+[13:01:55] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:01:56] [Server thread/INFO]: PiWalker[local:E:e92048b5] logged in with entity id 71 at (-72.78786719921588, 240.8095269729375, 104.49603587866815)
+[13:01:56] [Server thread/INFO]: PiWalker joined the game
+[13:02:57] [Server thread/INFO]: Saving and pausing game...
+[13:02:57] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
+[13:02:57] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
+[13:02:57] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
+[13:03:07] [Server thread/INFO]: Saving and pausing game...
+[13:03:07] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
+[13:03:07] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
+[13:03:07] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
+[13:03:08] [Server thread/INFO]: Stopping server
+[13:03:08] [Server thread/INFO]: Saving players
+[13:03:08] [Server thread/INFO]: Saving worlds
+[13:03:08] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Overworld
+[13:03:08] [Server thread/INFO]: Saving chunks for level 'DevWorld'/Nether
+[13:03:08] [Server thread/INFO]: Saving chunks for level 'DevWorld'/The End
+[13:03:09] [Client thread/INFO]: Stopping!
