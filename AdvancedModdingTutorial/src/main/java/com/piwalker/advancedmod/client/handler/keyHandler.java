@@ -1,4 +1,4 @@
-package com.piwalker.advancedmod.handler;
+package com.piwalker.advancedmod.client.handler;
 
 import com.piwalker.advancedmod.handler.network.MessageExplode;
 import com.piwalker.advancedmod.handler.network.NetworkHandler;

@@ -1,5 +1,7 @@
 package com.piwalker.advancedmod.block;
 
+import com.piwalker.advancedmod.AdvancedMod;
+import com.piwalker.advancedmod.client.handler.GuiHandler;
 import com.piwalker.advancedmod.reference.Names;
 import com.piwalker.advancedmod.tileentity.TileEntityAdvancedMod;
 import com.piwalker.advancedmod.tileentity.TileEntityCamoMine;
@@ -32,7 +34,8 @@ public class BlockCamoMine extends BlockAdvancedModTileEntity {
     @Override
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float HitX, float HitY, float hitZ) {
         if(!world.isRemote) {
-            TileEntityCamoMine te = (TileEntityCamoMine)world.getTileEntity(x, y, z);
+            player.openGui(AdvancedMod.instance, GuiHandler.GuiIDs.CAMO_MINE.ordinal(), world, x, y, z);
+            /*TileEntityCamoMine te = (TileEntityCamoMine)world.getTileEntity(x, y, z);
             if(te.getCamouflage(side) != null){
                 ItemStack camoStack = te.getCamouflage(side);
                 te.setCamouflage(null, side);
@@ -44,7 +47,7 @@ public class BlockCamoMine extends BlockAdvancedModTileEntity {
                     ItemStack camoStack = playerItem.splitStack(1);
                     te.setCamouflage(camoStack, side);
                 }
-            }
+            }*/
         }
         return true;
     }

@@ -1,6 +1,6 @@
 package com.piwalker.advancedmod.proxy;
 
-import com.piwalker.advancedmod.handler.keyHandler;
+import com.piwalker.advancedmod.client.handler.keyHandler;
 import com.piwalker.advancedmod.reference.Key;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.FMLCommonHandler;

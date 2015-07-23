@@ -1,6 +1,6 @@
 package com.piwalker.advancedmod;
 
-import com.piwalker.advancedmod.handler.keyHandler;
+import com.piwalker.advancedmod.client.handler.GuiHandler;
 import com.piwalker.advancedmod.handler.network.NetworkHandler;
 import com.piwalker.advancedmod.init.ModTileEntities;
 import com.piwalker.advancedmod.network.DescriptionHandler;
@@ -9,12 +9,12 @@ import com.piwalker.advancedmod.init.ModBlocks;
 import com.piwalker.advancedmod.proxy.IProxy;
 import com.piwalker.advancedmod.reference.Reference;
 import com.piwalker.advancedmod.utility.LogHelper;
-import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
@@ -37,6 +37,7 @@ public class AdvancedMod {
         NetworkHandler.init();
         DescriptionHandler.init();
         ModTileEntities.init();
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
         LogHelper.info("Pre Initialization Complete.");
     }
 
